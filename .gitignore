@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+
+# 运行时生成（exe 运行时写在自身目录）
+backups/
+排查结果.txt
+titles_cache.json
+
+# 测试运行产物
+tests/copy_widget.png
+tests/backups/
+
+# 打包中间产物
+build/
+
+# 成品 exe 走 GitHub Releases 附件，不进 git
+dist/
